@@ -1,0 +1,19 @@
+<div class="container" style="width:90%;">
+    <cabecera>CABECERA</cabecera>
+    <div >
+            <div class="row">
+              <div class="col-sm">
+                <div class="bloque">
+                    <lista-productos titulo = "Lista Comidas" [productos]="arrProdsComida" (onProdSeleccionado)="onProductoSeleccionado($event)"></lista-productos>
+                    <lista-productos titulo = "Lista Bebidas" [productos]="arrProdsBebida" (onProdSeleccionado)="onProductoSeleccionado($event)"></lista-productos>
+                </div>
+                </div>
+              <div class="col-sm">
+                <comanda [productosPedidos]="arrProductosSeleccionados"></comanda>
+              </div>
+            </div>
+          </div>
+</div>
+
+<!-- <lista-productos titulo=”Comida” [productos]=”arrProdsComida” (productoSeleccionado)=”onProductoSeleccionado($event)></lista-productos> -->
+

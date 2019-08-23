@@ -1,0 +1,19 @@
+.bloque{
+    width:100%;
+    border: 1px solid black;
+}
+.cabecera{
+    width:100%;
+    height:60px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lista{
+    width:100%;
+    height: auto;
+    background-color: lightcoral;
+}

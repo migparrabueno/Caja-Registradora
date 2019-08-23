@@ -1,0 +1,32 @@
+.lista{
+    padding:2%;
+    width:90%;
+    margin: 0 auto;
+}
+.cabecerita{
+    width: 100%;
+    height: 50px;
+    background-color:lightgrey;
+    text-align: center;
+    font-weight: bold;
+    border:1px solid black;
+}
+
+.listaProductos{
+    width: 100%;
+    height: auto;;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    font-weight: bold;
+    border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    width:150px; 
+    height:150px; 
+    border-radius: 50%;
+    padding:8px; 
+    cursor:pointer;
+}

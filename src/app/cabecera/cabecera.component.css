@@ -1,0 +1,11 @@
+.cabecera{
+    width:100%;
+    height: 100px;
+    background-image:url('https://www.amarehotels.com/wp-content/uploads/2018/08/tapas-marbella-22.jpg');
+    font-size: 50px;
+    text-align:center;
+    border:1px solid black;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 4px white;
+}

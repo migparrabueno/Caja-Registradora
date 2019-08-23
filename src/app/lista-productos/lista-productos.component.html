@@ -1,0 +1,6 @@
+<div class="lista">
+    <div class="cabecerita">{{titulo}}</div>
+    <div class="listaProductos container">
+                <div *ngFor="let producto of productos"><img src={{producto.imagen}} class="imagen" (click)="mandarDatos(producto)"/><p>{{producto.nombre}}</p></div>
+    </div>
+</div>

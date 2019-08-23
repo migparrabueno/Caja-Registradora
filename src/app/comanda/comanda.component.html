@@ -1,0 +1,24 @@
+<div class="bloque">
+    <div class="cabecera"> LISTA TOTAL</div>
+    <div class="lista">
+            <div class="row">
+                    <div class="col-sm">
+                        <ul>
+                            <p *ngFor="let producto of productosPedidos">{{producto.nombre}}</p>
+                        </ul>
+                    </div>
+                        
+                    <div class="col-sm">
+                        <ul>
+                            <p *ngFor="let producto of productosPedidos">{{producto.precio}}€</p>
+                        </ul>
+                    </div>
+            </div>
+            <hr>
+            <div style="text-align:end; padding-right: 30%;">
+                <p style="margin: 0; padding: 0; font-size:20px; font-weight:bold;">TOTAL: {{sumarPrecio()}}€</p>
+            </div>
+    </div>
+
+
+</div>
